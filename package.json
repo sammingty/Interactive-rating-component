@@ -1,0 +1,22 @@
+{
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sammingty/Interactive-rating-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sammingty/Interactive-rating-component/issues"
+  },
+  "homepage": "https://github.com/sammingty/Interactive-rating-component#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}

@@ -1,0 +1,84 @@
+$card-border-radius: 16px;
+$card-bg: hsl(213, 19%, 18%);
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: "Overpass", sans-serif;
+}
+
+.card {
+    padding: 1rem;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 13px;
+}
+
+.btn-orange {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 36px;
+}
+
+.btn-orange:hover, .btn-orange:focus {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.btn-rating {
+    min-height: 36px;
+    min-width: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(214, 33%, 22%);
+    color: hsl(217, 12%, 63%);
+}
+
+.btn-rating:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-rating:active, .btn-rating:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.btn-star {
+    position: relative;
+    height: 36px;
+    width: 36px;
+    border: none;
+    border-radius: 50%;
+    background-color: hsl(214, 33%, 22%);
+    img {
+        position: absolute;
+        top: 50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#responseCard {
+    display: none;
+}
+
+.btn-ratingText {
+    height: 32px;
+    width: 160px;
+    border: none;
+    border-radius: 32px;
+    background-color: hsl(214, 33%, 22%);
+    #ratingText {
+        color: hsl(25, 97%, 53%);
+        font-size: 13px;
+    }
+}
